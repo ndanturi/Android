@@ -18,7 +18,7 @@ public class AboutProf extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.aboutprof);
         /*Event Listener to get professor's webstie */
         Button button1 = (Button)findViewById(R.id.button1);
         button1.setOnClickListener(new OnClickListener()

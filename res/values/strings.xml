@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TestappActivity!</string>
+    <string name="hello_world">Hello World</string>
+    <string name="app_name">Mobile Computing Course</string>
+    <string name="des"><u><b><i>Description:</i></b></u></string>
+    <string name="pre"><u><b><i>Prerequisite:</i></b></u></string>
+    <string name="text"><u><b><i>Textbook:</i></b></u></string>
+    <string name="gra"><u><b><i>Grading:</i></b></u></string>
+    <string name="pla"><u><b><i>Platform Presentations:</i></b></u></string>
+    <declare-styleable name="Gallery1">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+
+</resources>

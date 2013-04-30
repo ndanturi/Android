@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/asu" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text=" CST 594 Mobile Computing \r\n Class Timings: Tue, Thu 3pm-4:15pm\r\n Spring 2013 Location: Peralta 213"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/prof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Professor"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Course"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/proj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Projects"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/gall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gallery"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/cal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add To Calender"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class Location "
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/asu"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text=" Timothy E Lindquist, Ph.D.\r\n Professor at the ASU Polytechnic Campus\r\n College of Technology and Innovation\r\n Department of Engineering"
+    android:padding="10dp"
+    android:textSize="18dp"
+    android:textColor="#FFFFFF"
+    />
+    
+<ImageView  
+        android:layout_width="210sp"  
+        android:layout_height="210sp"  
+        android:src="@drawable/lindquist"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"                       
+        android:maxHeight="55dp"  
+        android:maxWidth="55dp"  
+        android:id="@+id/Photo" /> 
+    
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text=" Email: Tim.Lindquist@asu.edu \r\n Phone: (480) 727-2783\r\n Office: Peralta Hall Room 230D\r\n Office-Hours: T,W,TH 1:30-3pm"
+    android:padding="10dp"
+    android:textSize="18dp"
+    android:textColor="#FFFFFF"
+    />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:text="Click Here For more Information" />
+
+</LinearLayout>
+</ScrollView>
